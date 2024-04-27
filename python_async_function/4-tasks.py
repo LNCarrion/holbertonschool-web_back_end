@@ -8,7 +8,8 @@ wait_random = __import__('3-tasks').wait_random
 
 
 async def task_wait_n(n: int, max_delay: int) -> List[float]:
-    """Returns list of completed random delay results for n tasks with a given max_delay """
+    """Returns list of completed random delay results 
+    for n tasks with a given max_delay """
 
     tasks = [wait_random(max_delay) for _ in range(n)]
 
