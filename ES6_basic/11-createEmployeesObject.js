@@ -3,5 +3,5 @@ export default function createEmployeesObject(departmentName, employees) {
     [departmentName]: employees,
   };
 
-  return obj
+  return obj;
 }
