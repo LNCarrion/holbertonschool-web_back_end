@@ -3,6 +3,6 @@ export default function getResponseFromAPI() {
     (resolve) => {
       resolve();
     },
-    );
+  );
   return promise;
 }
